@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простой слайдер | Практика</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Простой слайдер изображений</h1>
+        <p>Учебная практика. Кейс-задача №3</p>
+        
+        <!-- Слайдер -->
+        <div class="slider">
+            <!-- Изображения -->
+            <div class="slides">
+                <img src="images/1.jpg" alt="Картинка 1" class="slide active">
+                <img src="images/2.jpg" alt="Картинка 2" class="slide">
+                <img src="images/3.jpg" alt="Картинка 3" class="slide">
+                <img src="images/4.jpg" alt="Картинка 4" class="slide">
+                <img src="images/5.jpg" alt="Картинка 5" class="slide">
+            </div>
+            
+            <!-- Кнопки -->
+            <button class="btn prev">←</button>
+            <button class="btn next">→</button>
+            
+            <!-- Индикаторы -->
+            <div class="dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+            </div>
+            
+            <!-- Счетчик -->
+            <div class="counter">
+                <span id="current">1</span> из <span id="total">5</span>
+            </div>
+        </div>
+        
+        <div class="info">
+            <h2>Как работает слайдер:</h2>
+            <ul>
+                <li>Нажимайте кнопки ← и → для переключения</li>
+                <li>Можно кликнуть на точки внизу</li>
+                <li>Слайдер зациклен - после 5-го идет 1-й</li>
+                <li>Есть автоматическая прокрутка</li>
+            </ul>
+            <p><strong>Технологии:</strong> HTML, CSS, JavaScript</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
