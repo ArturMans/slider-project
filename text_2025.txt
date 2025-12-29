@@ -1,0 +1,11 @@
+slider-project/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── images/
+    ├── 1.jpg    (горы)
+    ├── 2.jpg    (пляж)
+    ├── 3.jpg    (лес)
+    ├── 4.jpg    (город)
+    └── 5.jpg    (пустыня)
